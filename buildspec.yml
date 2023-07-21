@@ -8,10 +8,10 @@ env:
 phases:
   install:  
     runtime-versiones:
-        nodejs: 18
+        nodejs: 16
     commands:
         - echo Installing source NPM dependencies...
-        - npm install -g npm@latest
+        - npm install 
         - npm install -g @angular/cli
   build:
     commands:
