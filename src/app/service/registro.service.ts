@@ -8,7 +8,7 @@ import { Registro } from '../models/registro'
 })
 export class RegistroService {
   
-  registroURL = 'http://54.145.69.177:8081/registro/';
+  registroURL = 'http://44.201.166.87:8081/registro/';
   
   
   constructor(private httpClient: HttpClient) {}
