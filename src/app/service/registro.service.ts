@@ -10,6 +10,7 @@ export class RegistroService {
   
   registroURL = 'http://54.145.69.177:8081/registro/';
   
+  
   constructor(private httpClient: HttpClient) {}
 
     public lista(): Observable<Registro[]>{
